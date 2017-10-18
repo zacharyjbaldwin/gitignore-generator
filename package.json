@@ -1,0 +1,33 @@
+{
+  "name": "gitignore-generator",
+  "version": "1.0.0",
+  "description": "A command line tool to generate default .gitignore files by GitHub.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/zacharyjbaldwin/gitignore-generator.git"
+  },
+  "keywords": [
+    "commandline",
+    "cli",
+    "gitignore",
+    "generate",
+    "generator",
+    "nodejs",
+    "node",
+    "js"
+  ],
+  "author": "Zachary J. Baldwin <zacharyjbaldwin@gmail.com> (https://www.github.com/zacharyjbaldwin)",
+  "license": "MIT",
+  "bin": {
+      "gitignore": "app.js",
+      "gi": "app.js"
+  },
+  "dependencies": {
+    "request": "^2.83.0",
+    "yargs": "^9.0.1"
+  }
+}
